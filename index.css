@@ -8,7 +8,6 @@
     width: 100%;
     background-color: #6610f2;
     color: white;
-
 }
 header{
     width: 100%;
@@ -213,6 +212,7 @@ nav ul li a{
 }
 /* end of services page */
 
+
 /* how it work page */
 .work-container{
     width: 100%;
@@ -240,27 +240,473 @@ nav ul li a{
     font-size: 20px;
 }
 .work-page .work-card{
- width: 25%;
+ width: 20%;
+ margin: auto;
+ text-align: center;
  padding-top: 50px;
 }
 .work-page .work-card .htw{
- width: 50%;
- height: 25vh;
- border-radius: 100%;
+ width: 150px;
+ height: 150px;
+ margin: auto;
+ border-radius: 50%;
  display: flex;
  align-items: center;
  justify-content: center;
- box-shadow: #2513d1;
- /* background-color: rebeccapurple; */
+ box-shadow: 0.5px 0.5px 10px rgb(54 186 254 / 20%);
+ margin-bottom: 30px;
 }
 .work-page .work-card .htw img{
 width: 50%;
 }
-.work-page .work-card .htw h2{
-    margin-bottom: 70px;
+.work-page .work-card h2{
+    margin-bottom: 20px;
+    color: #100a44;
 }
-.work-page .work-card .htw p{
-/* width: 20%; */
-/* margin: auto; */
-margin-bottom: 20px;
+.work-page .work-card p{
+width: 90%;
+margin: auto;
+margin-bottom: 30px;
+font-size: 18px;
 }
+/* end of work page */
+
+/* start of awards */
+.award-page{
+  width: 100%;
+   background-image: url(./images/coll.jpeg);
+}
+.award-page .award-icon{
+  width: 90%;
+  height: 250px;
+  display: flex;
+  margin: auto;
+  margin-top: 100px;
+}
+.award-page .award-icon .hc{
+  width: 20%;
+  margin: auto;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.award-page .award-icon .hc .hc-wrd{
+  margin-left: 25px;
+  color: white;
+  margin: auto;
+}
+.award-page .award-icon .hc .hc-wrd h1{
+  padding-bottom: 3px;
+  font-size: 30px;
+}
+.award-page .award-icon .hc .hc-wrd h3{
+  font-size: 20px;
+}
+.award-page .award-icon .hc img{
+  width: 25%;
+  border-radius: 10px;
+}
+/* end of start award */
+
+/* consultant to get business plan */
+.consultant-con{
+  width: 100%;
+}
+.consultant-con .consult{
+  width: 90%;
+  display: flex;
+  margin: auto;
+  justify-content: space-between;
+  align-items: center;
+}
+.consultant-con .consult-left{
+  width: 45%;
+}
+.consultant-con .consult-left img{
+  width: 100%;
+  margin-top: 50px;
+}
+.consultant-con .consult-left h1{
+  margin-bottom: 20px;
+  font-size: 48px;
+}
+.consultant-con .consult-left p{
+  margin-bottom: 15px;
+}
+.consultant-con .consult-left .consultant-link{
+  width: 150px;
+  padding: 15px;
+  background-color: #0000ee;
+}
+.consultant-con .consult-left .consultant-link a{
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+}
+/* end consultant to get business plan */
+
+/* start of Partner Company Business and Me Success Fully  */
+.parter-con{
+  width: 100%;
+}
+.partner-con .partner{
+  width: 90%;
+  display: flex;
+  margin: auto;
+  align-items: center;
+  justify-content: space-between;
+}
+.partner .partner-left{
+  width: 45%;
+  font-size: 20px;
+}
+.partner .partner-left h1{
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+.partner .partner-left p{
+  margin-bottom: 10px;
+}
+.partner .partner-left .partner-icon{
+  width: 100%;
+  display: flex;
+}
+.partner .partner-left .partner-icon img{
+  width: 20px;
+  margin-right: 25px;
+}
+.partner .partner-left .partner-icon P{
+ margin-bottom: 20px;
+}
+/* end of Partner Company Business and Me Success Fully   */
+
+/* start start of IT Solution For Your Business Is Best Theme */
+.it-sol-con{
+  width: 100%;
+  margin-bottom: 40px;
+}
+.it-sol-con .it-sol{
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  align-items: center;
+}
+.it-sol .it-sol-left{
+  width: 45%;
+  font-size: 20px;
+}
+.it-sol .it-sol-left img{
+  width: 100%;
+}
+.it-sol .it-sol-left h1{
+  margin-bottom: 25px;
+  font-size: 45px;
+  color: #100a44;
+}
+.it-sol .it-sol-left p{
+  margin-bottom: 25px;
+}
+.it-sol .it-sol-left .icon{
+  width:  100%;
+  display: flex;
+}
+.it-sol .it-sol-left .icon img{
+  width: 25px;
+  height: 25px;
+  margin-right: 20px;
+}
+.it-sol .it-sol-left .icon h3{
+  margin-bottom: 10px;
+  color: #20186b;
+}
+/* end start of IT Solution For Your Business Is Best Theme  */
+
+/* start of testimonial */
+.testimonial-con{
+  width: 100%;
+  background-color: #f4f7fc;
+}
+.testimonial-con .testimonial{
+  width: 90%;
+  margin: auto;
+  padding-top: 50px;
+}
+.testimonial .testimonial-title{
+  text-align: center;
+  align-items: center;
+}
+.testimonial .testimonial-title h4{
+  color: #0000ee;
+  margin-bottom: 20px;
+}
+.testimonial .testimonial-title h1{
+  font-size: 45px;
+  margin-bottom: 20px;
+}
+.testimonial .testimonial-title p{
+  width: 65%;
+  margin: auto;
+  font-size: 16px;
+}
+.testimonial .images{
+  width: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 90px;
+  }
+.testimonial .images .image{
+  width: 40%;
+  height: 40%;
+  background-color: white;
+  margin: auto;
+  text-align: center;
+  border-radius: 60px 50px 50px 160px;
+  margin-bottom: 50px;
+}
+.testimonial .images img{
+  width: 20%;
+  margin: auto;
+  margin-bottom: 20px;
+  margin-top: -50px;
+  border-radius: 50px;
+  }
+.testimonial .images p{
+  width: 220px;
+  margin: auto;
+  margin-bottom: 20px;
+ }
+ .testimonial .images h3{
+  margin-bottom: 20px;
+  color: #20186b;
+  }
+/* end of testimonial */
+/* start of How May We Help You! */
+.help-con{
+  width: 100%;
+}
+.help-con .help{
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+}
+.help .help-left{
+  width: 45%;
+  margin: auto;
+  font-size: 20px;
+}
+.help .help-left .text h1{
+  font-size: 40px;
+  margin-bottom: 20px;
+  color: #100a44;
+}
+.help .help-left .text p{
+  margin-bottom: 20px;
+
+}
+.help .help-left form{
+   width: 100%;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+}
+.help .help-left form input{
+  width: 48%;
+  height: 50px;
+  margin-bottom: 30px;
+  font-size: 16px;
+  padding-left: 10px;
+  border-radius: 3px;
+}
+.help .help-left form textarea{
+  width: 100%;
+  height: 50px;
+}
+.help .help-left form textarea::placeholder{
+  font-size: 20px;
+  padding-left: 10px;
+}
+.help-left form .btn button{
+  padding: 18px;
+  margin-top: 20px;
+  font-size: 18px;
+  background-color: #0000ee;
+  border: none;
+  border-radius: 10px;
+  color: white;
+}
+/* end of How May We Help You! */
+
+/* start of great things in business */
+.great-things{
+  width: 100%;
+  background-image: url(./images/coll.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.great-things .gt{
+  width: 90%;
+  display: flex;
+  margin: auto;
+  padding: 50px;
+}
+.great-things .gt h1{
+  width:  60%;
+  font-size: 40px;
+  color: white;
+}
+.great-things .gt .right{
+display: flex;
+justify-content: center;
+background-color: #0000ee;
+margin: auto;
+padding: 25px;
+}
+.great-things .gt .right a{
+  font-size: 20px;
+  text-decoration: none;
+  color: white;
+  text-align: center;
+}
+/* end of great things in business */
+
+/* start of See Your Latest Blog Post */
+.bp-con{
+  width: 100%;
+  background-color: #f4f7fc;
+}
+.bp-con .bp{
+  width: 90%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.bp-con .bp .title{
+  width: 100%;
+  text-align: center;
+  margin-top: 80px;
+}
+.bp-con .bp .title h3{
+  color: #0000ee;
+  margin-bottom: 20px;
+}
+.bp-con .bp .title h1{
+  color: #100a44;
+  margin-bottom: 50px;
+}
+.bp-con .bp .title p{
+  width: 50%;
+  margin: auto;
+  color: #6a7c92;
+}
+.bp .card{
+  width: 32%;
+  background-color: #fff;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 90px;
+}
+.bp .card .txt-on-card{
+  width: 100%;
+  margin: auto;
+  padding-top: 20px;
+}
+.bp .card .txt-on-card img{
+  width: 90%;
+  margin: auto;
+}
+.bp .card h2{
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+.bp .card p{
+  width: 70%;
+  margin: auto;
+  margin-bottom: 50px;
+}
+/* end of See Your Latest Blog Post */
+
+/* start of footer */
+footer{
+  width: 100%;
+  background-color: #1e1666;
+}
+footer .footer-con{
+  width: 90%;
+  margin: auto;
+  padding-top: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+}
+.footer-con .title{
+  width: 100%;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.footer-con .contact{
+  width: 25%;
+  margin: auto;
+  text-align: center;
+}
+.footer-con .contact .icon{
+  width: 45px;
+  height: 35px;
+  margin: auto;
+  background-color: #0000ee;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+.footer-con .contact img{
+  width: 32px;
+}
+.footer-con .contact h2{
+  margin-bottom: 20px;
+}
+.footer-con .contact p{
+  margin-bottom: 50px;
+}
+.footer-con ul{
+  width: 50%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 70px;
+}
+.footer-con ul li{
+  display: flex;
+}
+.footer-con ul li a{
+  text-decoration: none;
+  list-style-type: none;
+  font-size: 18px;
+  font-weight: 900;
+  color: white;
+}
+.footer-con p{
+  width: 100%;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.footer-con .icons{
+  width: 30%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 50px;
+}
+.footer-con .icons img{
+  width: 27px;
+}
+
+/* end of footer */
