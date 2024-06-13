@@ -3,10 +3,14 @@
   padding: 0;
   box-sizing: border-box;
 }
+body{
+  font-family: "poppins";
+}
+
 /* navigation bar */
 .nav-bar {
   width: 100%;
-  background-color: hsla(246, 83%, 45%);
+  background-color: #6610f2;
   color: white;
 }
 header {
@@ -54,21 +58,21 @@ nav ul li a {
 }
 .page-one .page-one-left h3 {
   margin-bottom: 40px;
-  font-size: 24px;
+  font-size: 16px;
   font-weight: 900;
 }
 .page-one .page-one-left h1 {
   margin-bottom: 40px;
-  font-size: 54px;
+  font-size: 45px;
   font-weight: 900;
 }
 .page-one .page-one-left p {
   margin-bottom: 40px;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 900;
 }
 .page-one .page-one-left button {
-  width: 30%;
+  width: 35%;
   padding: 15px;
   background-color: #0000ee;
   border: none;
@@ -109,12 +113,12 @@ nav ul li a {
   width: 45%;
 }
 .page-two-align .page-two-right h1 {
-  font-size: 50px;
+  font-size: 40px;
   color: #0f0b33;
   margin-bottom: 25px;
 }
 .page-two-align .page-two-right h3 {
-  font-size: 17px;
+  font-size: 18px;
   color: #697b91;
   margin-bottom: 25px;
 }
@@ -159,8 +163,6 @@ nav ul li a {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-
-  /* align-items: center; */
 }
 .services-container .services-title {
   text-align: center;
@@ -200,6 +202,7 @@ nav ul li a {
   margin: auto;
   margin-bottom: 30px;
   color: #697b91;
+  font-size: 15px;
 }
 .services .service-card .services-link {
   margin-bottom: 30px;
@@ -207,7 +210,7 @@ nav ul li a {
 .services .service-card a {
   text-decoration: none;
   color: #0000ee;
-  font-size: 20px;
+  font-size: 15px;
   font-weight: 900;
 }
 /* end of services page */
@@ -231,12 +234,14 @@ nav ul li a {
   font-size: 30px;
   margin-top: 50px;
   margin-bottom: 20px;
+  color: #1e1666;
 }
 .work-container .work-page .work-title p {
   width: 55%;
   margin: auto;
   text-align: center;
-  font-size: 20px;
+  font-size: 16px;
+  color: #697B91;
 }
 .work-page .work-card {
   width: 20%;
@@ -260,13 +265,16 @@ nav ul li a {
 }
 .work-page .work-card h2 {
   margin-bottom: 20px;
-  color: #100a44;
+  font-weight: 900;
+  font-size: 20px;
+  color: #1e1666;
 }
 .work-page .work-card p {
-  width: 90%;
+  width: 100%;
   margin: auto;
   margin-bottom: 30px;
-  font-size: 18px;
+  font-size: 14px;
+  color: #697B91;
 }
 /* end of work page */
 
@@ -299,7 +307,7 @@ nav ul li a {
   font-size: 30px;
 }
 .award-page .award-icon .hc .hc-wrd h3 {
-  font-size: 20px;
+  font-size: 18px;
 }
 .award-page .award-icon .hc img {
   width: 25%;
@@ -327,10 +335,11 @@ nav ul li a {
 }
 .consultant-con .consult-left h1 {
   margin-bottom: 20px;
-  font-size: 48px;
+  font-size: 42px;
 }
 .consultant-con .consult-left p {
   margin-bottom: 15px;
+  color: #697B91;
 }
 .consultant-con .consult-left .consultant-link {
   width: 150px;
@@ -339,7 +348,7 @@ nav ul li a {
 }
 .consultant-con .consult-left .consultant-link a {
   text-decoration: none;
-  font-size: 20px;
+  font-size: 16px;
   color: white;
 }
 /* end consultant to get business plan */
@@ -350,8 +359,8 @@ nav ul li a {
 }
 .partner-con .partner {
   width: 90%;
-  display: flex;
   margin: auto;
+  display: flex;
   align-items: center;
   justify-content: space-between;
 }
@@ -365,6 +374,7 @@ nav ul li a {
 }
 .partner .partner-left p {
   margin-bottom: 10px;
+  font-size: 15px;
 }
 .partner .partner-left .partner-icon {
   width: 100%;
@@ -400,7 +410,7 @@ nav ul li a {
 }
 .it-sol .it-sol-left h1 {
   margin-bottom: 25px;
-  font-size: 45px;
+  font-size: 40px;
   color: #100a44;
 }
 .it-sol .it-sol-left p {
@@ -408,6 +418,7 @@ nav ul li a {
 }
 .it-sol .it-sol-left .icon {
   width: 100%;
+  margin: auto;
   display: flex;
 }
 .it-sol .it-sol-left .icon img {
@@ -418,6 +429,10 @@ nav ul li a {
 .it-sol .it-sol-left .icon h3 {
   margin-bottom: 10px;
   color: #20186b;
+  font-size: 18px;
+}
+.it-sol .it-sol-left .icon p {
+  font-size: 15px;
 }
 /* end start of IT Solution For Your Business Is Best Theme  */
 
@@ -440,13 +455,13 @@ nav ul li a {
   margin-bottom: 20px;
 }
 .testimonial .testimonial-title h1 {
-  font-size: 45px;
+  font-size: 40px;
   margin-bottom: 20px;
 }
 .testimonial .testimonial-title p {
-  width: 65%;
+  width: 55%;
   margin: auto;
-  font-size: 16px;
+  font-size: 15px;
 }
 .testimonial .images {
   width: 100%;
@@ -473,15 +488,17 @@ nav ul li a {
   border-radius: 50px;
 }
 .testimonial .images p {
-  width: 220px;
+  width: 320px;
   margin: auto;
   margin-bottom: 20px;
 }
 .testimonial .images h3 {
   margin-bottom: 20px;
   color: #20186b;
+  font-size: 15px;
 }
 /* end of testimonial */
+
 /* start of How May We Help You! */
 .help-con {
   width: 100%;
@@ -507,6 +524,7 @@ nav ul li a {
 }
 .help .help-left .text p {
   margin-bottom: 20px;
+  font-size: 15px;
 }
 .help .help-left form {
   width: 100%;
@@ -520,6 +538,7 @@ nav ul li a {
   margin-bottom: 30px;
   font-size: 16px;
   padding-left: 10px;
+  border-radius: 10px;
   border: 1px solid hsla(213, 16%, 49%, .2);
   outline: transparent;
 }
@@ -572,10 +591,10 @@ nav ul li a {
   justify-content: center;
   background-color: #0000ee;
   margin: auto;
-  padding: 25px;
+  padding: 20px;
 }
 .great-things .gt .right a {
-  font-size: 20px;
+  font-size: 18px;
   text-decoration: none;
   color: white;
   text-align: center;
@@ -593,6 +612,8 @@ nav ul li a {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  padding-bottom: 50px;
+  /* margin-bottom: 80px; */
 }
 .bp-con .bp .title {
   width: 100%;
@@ -616,8 +637,7 @@ nav ul li a {
   width: 32%;
   background-color: #fff;
   text-align: center;
-  margin-top: 90px;
-  margin-bottom: 50px;
+  margin-top: 30px;
 }
 .bp .card .txt-on-card {
   width: 100%;
@@ -629,14 +649,14 @@ nav ul li a {
   margin: auto;
 }
 .bp .card h2 {
-  font-size: 25px;
+  font-size: 20px;
   margin-bottom: 20px;
   color: #1e1666;
 }
 .bp .card p {
   width: 70%;
   margin: auto;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
 }
 /* end of See Your Latest Blog Post */
 
@@ -723,13 +743,19 @@ footer .footer-con {
 }
 /* end of footer */
 
+
+
 /* COMPANY STYLE */
 nav {
   padding: 40px 0 40px 0;
 }
 
+
 /* start of Mission & Vision */
 .mis-con {
+  width: 100%;
+}
+.mis-con .mission {
   width: 100%;
   margin: auto;
   background-image: url(../images/coll.jpeg);
@@ -737,20 +763,13 @@ nav {
   background-size: cover;
   background-position: center;
   color: #fff;
+  padding: 120px 90px;
 }
-.mis-con .mission {
-  width: 90%;
-  height: 400px;
-  margin: auto;
-  display: flex;
-  flex-direction: column;
-  padding-top: 150px;
-}
-.mis-con .mission h1 {
+.mission h1 {
   font-size: 40px;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
 }
-.mis-con .mission h4 {
+.mission h4 {
   font-weight: 900;
 }
 /* end of mission  */
@@ -794,6 +813,7 @@ nav {
   text-align: start;
   border: 1px solid hsla(0, 0%, 37%, 0.3);
   box-shadow: 0 2px 4px #0003;
+  margin-bottom: 25px;
 }
 .plan-con .pics img {
   width: 100%;
@@ -807,7 +827,7 @@ nav {
   color: #100a44;
 }
 .plan-con .pics p {
-  width: 300px;
+  width: 100%;
   margin: auto;
   font-size: 15px;
   margin-bottom: 30px;
@@ -820,80 +840,86 @@ nav {
 }
 .mission-world .world {
   width: 100%;
-  height: 550px;
-  overflow-x: hidden;
   background-image: url(./images/asst.png);
   background-repeat: no-repeat;
   background-position: center;
-  background-size: contain;
+  background-size: cover;
+  padding: 30px;
 }
 .world .text {
   width: 50%;
-  margin-left: auto;
   color: #fff;
+  margin-bottom: 50px;
 }
-.text h5 {
+.world .text h5 {
   width: 85%;
   margin: auto;
   font-size: 16px;
   color: #2513d1;
-  padding-top: 50px;
+  padding-top: 90px;
   margin-bottom: 20px;
 }
-.text h1 {
+.world .text h1 {
   width: 85%;
   font-size: 42px;
   margin: auto;
   font-weight: 900;
   margin-bottom: 50px;
 }
-.text h1 span {
+.world .text h1 span {
   color: #2513d1;
 }
-.text P {
+.world .text P {
   width: 85%;
   font-size: 20px;
   margin: auto;
   margin-bottom: 50px;
 }
-.text h6 {
+.world .text h6 {
   width: 85%;
   margin: auto;
   font-size: 16px;
 }
 /* end of World Top IT Agency */
 
+
 .mission-worlds {
   width: 100%;
 }
 .mission-worlds .worlds {
   width: 100%;
-  height: 500px;
   margin: auto;
   background-image: url(./images/assst.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  padding: 30px;
 }
 .worlds .text {
   width: 50%;
   color: #1e1666;
+  padding: 40px;
+
 }
-.text h1 {
+.worlds .text{
+    font-size: 20px;
+}
+.worlds .text h1 {
   width: 95%;
-  font-size: 44px;
-  margin-left: 50px;
+  font-size: 40px;
 }
-.text h1 span {
+.worlds .text h1 span {
   color: #2513d1;
 }
-.text P {
-  width: 85%;
+.worlds .text P {
+  width: 100%;
   font-size: 20px;
   margin: auto;
   margin-bottom: 50px;
 }
-
+.worlds .text h6{
+  font-size: 17px;
+}
 /* start of testimonial */
 .testimonial-con2 {
   background-color: white;
@@ -959,8 +985,8 @@ nav {
   width: 85%;
   margin: auto;
   text-align: center;
-  color: #0f0b33;
-  font-size: 45px;
+  color: #1e1666;;
+  font-size: 40px;
 }
 .serv-con .serv{
   width: 90%;
@@ -975,14 +1001,13 @@ nav {
   margin-top: 50px;
 }
 .serv .description h3 {
-  font-size: 24px;
-  color: #0f0b33;
+  font-size: 22px;
+  color: #1e1666;
   margin-bottom: 20px;
 }
 .serv .description p {
   width: 80%;
   font-size: 17px;
-  /* margin: auto; */
   color: #6a7c92;
 }
 /* end of Provide Awesome Service */
@@ -994,7 +1019,6 @@ nav {
 }
 .price-con .price{
   width: 90%;
-  height: 900px;
   margin: auto;
   display: flex;
   flex-wrap: wrap;
@@ -1009,9 +1033,10 @@ nav {
   .price .title h1{
     width: 45%;
     margin: auto;
-    font-size: 45px;
+    font-size: 20px;
     font-weight: 900;
     padding-top: 40px;
+    color: #1e1666;
   }
   .price .title p{
     width: 55%;
@@ -1026,19 +1051,21 @@ nav {
     text-align: center;
     background-color: #fff;
     margin-top: 100px;
+    margin-bottom: 10px;
   }
   .price .blue{
-    background-color: #0000ee;
+    background-color:  #2513d1;
     margin-top: 80px;
     padding-bottom: 35px;
+  }
+  .price .blue .pre{
+    color: #ffffff;
   }
   .price .card h1{
     color: #0000ee;
     font-weight: 900;
     padding-top: 20px;
     margin-bottom: 20px;
-  }
-  .price .card h1:nth-of-type(1){
     font-size: 35px;
   }
   .price .card h1 span{
@@ -1075,7 +1102,6 @@ nav {
     width: 90%;
     height: 400px;
     margin: auto;
-    margin-top: 100px;
   }
   .goal .title{
     width: 100%;
@@ -1093,18 +1119,20 @@ nav {
     width: 30%;
     margin: auto;
     text-align: center;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
+    font-size: 18px;
   }
-  .goal .btn{
-    width: 10%;
+  .goal .btn{ 
+    width: 20%;
     margin: auto;
+    padding: 15px 40px;
     text-align: center;
-    padding: 10px;
     background-color: #2714d2;
   }
   .goal .btn a{
-    font-style: 18px;
+    font-size: 18px;
     color: #fff;
+    line-height: 28px;
     text-decoration: none;
   }
   /* end of We Deliver Solution */
@@ -1131,57 +1159,62 @@ nav {
     margin: auto;
   }
 
-  /* check out page */
-  .check-con{
-    width: 100%;
-  }
-  .check-con .check{
-    width: 90%;
-    margin: auto;
-    margin-top: 50px;
-    
-  }
-  .check .title{
-    width: 100%;
-    margin: auto;
-    text-align: center;
-  }
-  .check .title h1{
-    width: 30%;
-    margin: auto;
-    font-size: 45px;
-    margin-bottom: 35px;
-    color: #0f0b33;
-  }
-  .check .box{
-    width: 60%;
-    margin: auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 100px;
-  }
-  .check .box a{
-    width: 15%;
-    margin: auto;
-    text-decoration: none;
-    border: 1px solid #0c5adb;
-    border-style: dotted;
-    padding: 5px;
-    color: #0000ee;
-    font-weight: 900;
-    text-align: center;
-    font-size: 20px;
-  }
-  .check .box a:hover{
-    color: white;
-    background-color: #0000ee;
-  }
-
-/* End of project */
 
 
 /* PROJECT STYLE */
+
+/* check out page */
+.check-con{
+  width: 100%;
+}
+.check-con .check{
+  width: 90%;
+  margin: auto;
+  margin-top: 50px;
+}
+.check .title{
+  width: 100%;
+  margin: auto;
+  text-align: center;
+}
+.check .title h1{
+  width: 25%;
+  margin: auto;
+  font-size: 34px;
+  margin-bottom: 35px;
+  color: #0f0b33;
+}
+.check .box{
+  width: 70%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 100px;
+}
+.check .box a{
+  width: 20%;
+  margin: auto;
+  text-decoration: none;
+  border: 1px solid #0c5adb;
+  border-style: dotted;
+  padding: 5px;
+  color: #0000ee;
+  font-weight: 900;
+  text-align: center;
+  font-size: 18px;
+}
+
+.check .box a:hover{
+  color: white;
+  background-color: #0000ee;
+}
+.check .box :nth-of-type(1){
+ background-color: #0000ee;
+ color: #ffffff;
+}
+
+/* End of check */
 .grid-con{
   width: 100%;
 }
@@ -1219,7 +1252,6 @@ nav {
   }
 .help-con2 .help2{
   width: 90%;
-  height: 500px;
   margin: auto;
   display: flex;
   justify-content: space-between;
@@ -1231,7 +1263,8 @@ nav {
   color: #1e1666;
   margin-bottom: 10px;
 }
-.help2 .help-left2{
+.help2 .help-left2
+{
   width: 43%;
   margin: auto;
 }
@@ -1244,9 +1277,11 @@ nav {
   width: 49%;
   margin-bottom: 20px;
   padding: 15px;
+  border: 1px solid grey;
 }
 .help-left2 form textarea{
   width: 100%;
+  border: 1px solid grey;
   margin-bottom: 15px;
 }
 .help-left2 form .btn button{
@@ -1257,10 +1292,10 @@ nav {
   border: none;
   border-radius: 2px;
   font-size: 20px;
+  margin-bottom: 50px;
 }
 .help2 .help-left3{
   width: 43%;
-  height: 500px;
   margin: auto;
   background-color: black;
   color: #ffffff;
@@ -1299,3 +1334,628 @@ nav {
 .map-loca iframe{
    width: 100%;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* START OF MMEDIA QUERY */
+
+@media screen and (max-width: 1000px){
+ 
+  /* navigation bar */
+  nav ul {
+    display: none;
+  }
+  .nav-bar .page-one {
+    flex-direction: column;
+    padding-bottom: 50px;
+  } 
+  .page-one .page-one-left {
+    width: 90%;
+    text-align: center;
+    text-align: center;
+  }
+  .page-one .page-one-left h3{
+    font-size: 20px;
+  }
+  .page-one .page-one-left h1{
+    font-size: 35px;
+  }
+.page-one .page-one-left p {
+  font-size: 20px;
+}
+.page-one .page-one-left button{
+  width: 30%;
+}
+.page-one .page-one-left button a{
+  font-size: 20px;
+}
+.page-one .page-one-right{
+  display: none;
+}
+/* end of navigation bar */
+
+
+/* second page */
+ .page-two .page-two-align {
+  flex-direction: column;
+  margin-bottom: 50px;
+}
+.page-two-align .page-two-left{
+  width: 85%;
+}
+.page-two-align .page-two-left img {
+  margin-bottom: 30px;
+}
+.page-two-align .page-two-right {
+  width: 90%;
+}
+.page-two-align .page-two-right h1 {
+  font-size: 35px;
+}
+.page-two-align .page-two-right h3{
+  font-size: 20px;
+}
+.page-two-align .page-two-right P {
+  font-size: 20px;
+}
+.page-two-right .page-two-button button{
+  width: 30%;
+} 
+/* end of page two */
+
+/* start of our services */
+.services-container .services {
+  flex-direction: column;
+}
+.services-container .services-title p{
+  width: 100%;
+  text-align: left;
+  font-size: 20px;
+}
+.services-container .services-title h1{
+  font-size: 30px;
+}
+.services .service-card {
+  width: 100%;
+}
+.services .service-card p{
+  font-size: 18px;
+}
+.services .service-card a {
+  font-size: 17px;
+}
+/* end of services page */
+
+/* how it work page */
+.work-container .work-page {
+  flex-direction: column;
+}
+.work-container .work-page .work-title p{
+  width: 100%;
+  text-align: left;
+}
+.work-page .work-card {
+  width: 100%;
+}
+.work-page .work-card h2{
+  font-size: 23px;
+}
+.work-page .work-card p {
+  width: 100%;
+  font-size: 17px;
+} 
+/* end of work page */
+
+/* start of awards */
+ .award-page .award-icon{
+  height: 500px;
+  flex-direction: column;
+}
+.award-page .award-icon .hc {
+  width: 80%;
+  text-align: center;
+}
+.award-page .award-icon .hc img {
+  width: 15%;
+  margin: auto;
+  margin: auto;
+} 
+/* end of start award */
+
+/* consultant to get business plan */
+.consultant-con .consult {
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+.consultant-con .consult-left {
+  width: 85%;
+  margin-bottom: 20px;
+}
+.consultant-con .consult-left h1 {
+  font-size: 35px;
+}
+.consultant-con .consult-left p {
+ font-size: 20px;
+}
+.consultant-con .consult-left .consultant-link{
+  text-align: center;
+}
+.consultant-con .consult-left .consultant-link a{
+  font-size: 19px;
+}
+/* end consultant to get business plan */
+
+/* start of Partner Company Business and Me Success Fully  */
+.partner-con .partner{
+ flex-direction: column;
+}
+.partner .partner-left {
+  width: 100%;
+  margin: auto;
+  padding-left: 55px;
+}
+.partner .partner-left h1 {
+  font-size: 35px;
+}
+.partner .partner-left img{
+  width: 90%;
+  margin-bottom: 50px;
+}
+/* end of Partner Company Business and Me Success Fully */
+
+/* start IT Solution For Your Business Is Best Theme  */
+.it-sol-con .it-sol {
+  flex-direction: column;
+}
+.it-sol .it-sol-left{
+  width: 90%;
+} 
+.it-sol .it-sol-left img {
+ margin-bottom: 20px;
+}
+.it-sol .it-sol-left h1{
+  font-size: 35px;
+}
+/* end start of IT Solution For Your Business Is Best Theme */
+
+/* start of testimonial */
+.testimonial .testimonial-title h4{
+  font-size: 20px;
+}
+.testimonial .testimonial-title p{
+  width: 90%;
+  font-size: 18px;
+  text-align: left;
+  color: #6a7c92;
+}
+.testimonial .images{
+  flex-direction: column;
+}
+.testimonial .images .image{
+  width: 95%;
+  height: 85%;
+  margin-bottom: 80px;
+}
+.testimonial .images p{
+  width: 400px;
+  font-size: 20px;
+  color: #6a7c92;
+}
+.testimonial .images h3{
+  font-size: 18px;
+}
+/* end of testimonial */
+
+/* start of How May We Help You! */
+.help-con .help {
+  flex-direction: column;
+}
+.help .help-left{
+  width: 90%;
+  margin: auto;
+}
+.help .help-left .text h1 {
+  all: unset;
+  font-size: 35px;
+  color: #0c063b;
+  font-weight: 900;
+}
+.help .help-left .text p {
+  width: 100%;
+  color: #6a7c92;
+  font-size: 17px;
+}
+.help .help-left form{
+  flex-direction: column;
+}
+.help .help-left form input{
+  width: 100%;
+  font-size: 18px;
+}
+.help-left form .btn button{
+ width: 50%;
+ margin-bottom: 20px;
+}
+.help .help-left img{
+  width: 80%;
+} 
+/* end of How May We Help You! */
+
+/* start of great things in business */
+.great-things .gt{
+  flex-direction: column;
+}
+.great-things .gt h1{
+  width: 100%;
+  margin: auto;
+  margin-bottom: 20px;
+  font-size: 25px;
+  text-align: center;
+}
+.great-things .gt .right{
+  width: 30%;
+  padding: 20px;
+  border-radius: 5px;
+} 
+/* end of great things in business */
+
+/* start of See Your Latest Blog Post */
+ .bp-con .bp{
+  flex-direction: column;
+}
+.bp-con .bp .title h3{
+  font-size: 22px;
+}
+.bp-con .bp .title h1{
+  font-size: 28px;
+  margin-bottom: 15px;
+}
+.bp-con .bp .title p{
+  width: 100%;
+  text-align: left;
+  font-size: 18px;
+  margin-bottom: 20px;
+  color: #6a7c92;
+}
+.bp .card {
+  width: 95%;
+  margin: auto;
+  margin-bottom: 50px;
+}
+.bp .card p{
+  width: 100%;
+ font-size: 18px;
+ color: #6a7c92;
+} 
+/* end of See Your Latest Blog Post */
+
+/* start of footer */
+footer .footer-con{
+  flex-direction: column;
+}
+.footer-con .contact{
+  width: 30%;
+}
+.footer-con .contact .icon {
+  width: 100px;
+}
+.footer-con .contact img {
+  width: 90px;
+}
+.footer-con .contact p{
+  font-size: 18px;
+} 
+.footer-con ul{
+  width: 100%;
+}
+.footer-con .icons{
+  width: 35%;
+}
+
+
+
+/* COMPANY STYLE */
+/* start of Mission & Vision */
+.mis-con .mission{
+  /* width: 90%; */
+  /* text-align: center; */
+}
+.mission h1{
+  /* font-size: 25px; */
+}
+
+/* end of mission  */
+
+/* start of planning  */
+.plan-con .plan{
+  flex-direction: column;
+}
+.plan .title h1{
+  font-size: 30px;
+}
+.plan-con .pics {
+  width: 85%;
+}
+.plan-con .pics h3{
+  font-size: 23px;
+  padding-left: 20px;
+}
+.plan-con .pics p{
+  padding-left: 20px;
+  font-size: 19px;
+  margin-bottom: 50px;
+}
+/* end of of planning  */
+
+/* start of World Top IT Agency */
+.mission-world .world {
+  padding: 8px;
+}
+.world .text{
+  width: 100%;
+}
+.world .text h5{
+  text-align: left;
+  font-size: 30px;
+}
+.world .text h1{
+  font-size: 20px;
+}
+.world .text P{
+  font-size: 16px;
+}
+
+
+/* Mission worlds part 2 */
+
+.worlds .text{
+  width: 100%;
+}
+.text h5{
+  font-size: 20px;
+}
+.worlds .text h1{
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.worlds .text P {
+  font-size: 15px;
+}
+.worlds .text h6 {
+  width: 100%;
+  font-size: 16px;
+}
+
+
+
+.testimonial .images2 .image{
+  width: 100%;
+}
+.testimonial .images2 img {
+  width: 40%;
+}
+/* END OF COMPANY STYLE */
+
+
+/* SERVICES STYLE */
+.serv-con .title{
+    width: 90%;
+}
+.serv-con .title h1{
+  width:  100%;
+  font-size: 30px;
+  text-align: left;
+}
+.serv-con .serv{
+  flex-direction: column;
+}
+.serv .description{
+  width: 90%;
+  margin: 0;
+  margin-top: 50px;
+}
+.serv .description h3{
+  margin-bottom: 20px;
+}
+.serv .description p{
+  width: 100%;
+}
+
+/* end of Provide Awesome Service */
+
+/* start  of Choose Your Best Pricing */
+.price .title h1{
+  width: 100%;
+  font-size: 40px;
+}
+.price .title p{
+  width: 100%;
+  text-align: left;
+}
+.price .card{
+  width: 70%;
+  /* margin-bottom: 50px; */
+}
+/* end  of Choose Your Best Pricing */
+
+/* start  of We Deliver Solution */
+.goal .title h1{
+  width: 100%;
+  font-size: 30px;
+}
+.goal .title p{
+  width: 90%;
+  font-size: 18px;
+}/* end of We Deliver Solution */
+
+  /* check out page */
+  .check .title h1{
+    /* width: 75%; */
+    /* font-size: 30px; */
+  }
+  .check .box{
+  }
+
+
+/* PROJECT STYLE */
+.grid-con .grid{
+  flex-direction: column;
+}
+.grid .photo{
+  width: 90%;
+  margin-bottom: 15px;
+}
+/* end of project style */
+
+
+/* CONTACT STYLE */
+/* start of How May We Help You! */
+.help-con2 .help2{
+  flex-direction: column;
+  align-items: start;
+}
+.help2 .help-left2{
+  width: 90%;
+}
+
+.help-con2 .help2 h1{
+  font-size: 35px;
+}
+.help-left2 form{
+  flex-direction: column;
+}
+.help-left2 form input{
+  width: 100%;
+}
+.help2 .help-left3 .left3{
+  width: 90%;
+}
+.help2 .help-left3{
+  width: 100%;
+}
+
+
+
+
+
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 700px){
+  
+  .page-one .page-one-left button{
+    width: 45%;
+  }
+
+}
+
+
+@media screen and (max-width: 548px){
+  .page-two-right .page-two-button button{
+    width: 40%;
+  }
+}
+
+
+@media screen and (max-width: 500px){
+  
+/* consultant to get business plan */
+.consultant-con .consult-left h1 {
+  font-size: 25px;
+}
+
+
+
+.it-sol .it-sol-left h1{
+  font-size: 25px ;
+}
+/* end */
+
+.partner .partner-left h1{
+  font-size: 23px;
+}
+/* end */
+
+.testimonial .testimonial-title h1{
+  font-size: 25px;
+}
+/* end */
+
+
+.testimonial .images p {
+  width: 100%;
+  margin: auto;
+}
+/* end */
+
+.help .help-left .text h1{
+  font-size: 25px;
+}
+
+/* end */
+
+.great-things .gt h1{
+  width: 100%;
+  font-size: 20px;
+}
+/* end */
+
+.great-things .gt .right{
+  width: 45%;
+}
+/* end */
+
+.great-things .gt .right a{
+  font-size: 18px;
+}
+/* end */
+
+.footer-con .contact{
+  width: 100%;
+}
+/* end  */
+
+.footer-con .contact h2{
+  font-size: 18px;
+}
+/* end */
+
+.footer-con ul{
+  flex-direction: column;
+  margin-bottom: 40px;
+}
+/* end  */
+
+.footer-con ul li {
+  margin: auto;
+  margin-bottom: 10px;
+}
+/* end  */
+
+.footer-con .icons{
+  width: 50%;
+}
+}
+
+
+
+
+
+
+
